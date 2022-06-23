@@ -2,9 +2,45 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        link(href="css/main.css", rel="stylesheet")
-        title Thrivetalk
-    body 
-        
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+            link(href="css/reset.css" rel="stylesheet")
+            link(href="css/main.css" rel="stylesheet")
+            title Thrivetalk
+            body 
+                .first-block
+                    header.header
+                        .container 
+                            .header__inner
+                                a.header__link.company-name(href="#") Thrivetalk 
+                                nav.header__nav
+                                    ul.header__list
+                                        li.header__item 
+                                            a(href="#").active Home
+                                        li.header__item 
+                                            a(href="#") About
+                                        li.header__item 
+                                            a(href="#") Services
+                                        li.header__item 
+                                            a(href="#")  Blog
+                                a(href="#").header__btn CONTACT US
+
+                    section.main 
+                        .container 
+                            .main__inner 
+                                h2.main__company.company-name Thrivetalk
+                                h1.main__head HELPING YOU THRIVE IN ALL AREAS OF LIFE
+                                p.main__text Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.
+                                .main__btns 
+                                    a(href="#").main__who-btn WHO AM I
+                                    a(href="#").main__what-btn WHAT DO I DO
+                
+                section.why
+                    .container 
+                        .why__inner 
+                            h2.why__title Why Thrive?
+                            p.why__text Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right therapist?  <span>Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk.  Start therapy now with a licensed therapist!</span>
+                                
